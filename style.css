@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,200&display=swap");
+body {
+  background-color: blanchedalmond;
+  color: blue;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.wishes {
+  background-color: greenyellow;
+  font-size: 20px;
+  font-weight: 400;
+  max-width: 50%;
+  border: 5px solid red;
+  border-right-color: darkmagenta;
+  border-left-color: darkmagenta;
+  border-bottom-style: dotted;
+  padding: 15px 50px;
+}
+.wishes h2 {
+  margin-bottom: 20px;
+}
+.list {
+  padding-left: 20px;
+}
+.list li {
+  border-bottom: 1px solid red;
+}
+h1 {
+  color: crimson;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.Photo {
+  border-radius: 28px;
+  box-shadow: 4px 4px 14px rgb(47, 0, 255);
+}
+.Наша_семья {
+  font-style: italic;
+  /* margin-left: 20px; */
+  padding-left: 20px;
+}
+.our_photo {
+  margin-top: 50px;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  color: fuchsia;
+}
+a:visited {
+  color: gray;
+}
+.table {
+  width: 50%;
+}
+.table td:nth-child(2) {
+  color: grey;
+}
+.form-group label {
+  display: block;
+}
+.form-group input {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid black;
+  margin-bottom: 20px;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+  color: black;
+  background: transparent;
+}
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid black;
+  margin-bottom: 20px;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+  color: black;
+  background: transparent;
+}
+
+.btn {
+  background-color: burlywood;
+  color: black;
+  font-family: inherit;
+  padding: 20px 15px;
+  cursor: pointer;
+  border-color: maroon;
+  border-width: 5px;
+}
+
+.btn:hover {
+  opacity: 0.1;
+}
+
+/* .box {
+  width: 50px;
+  height: 50px;
+  background-color: mediumorchid;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+} */
+.wishes {
+  @media (max-width: 700px) {
+    display: block;
+  }
+}
